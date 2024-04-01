@@ -1,0 +1,25 @@
+/* Estilos para o corpo da página */
+body {
+    margin: 0; /* Remove as margens padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */
+    background-color: rgba(0, 0, 0, 0.48); /* Cor de fundo preta com opacidade de 10% */
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #cc2626; /* Cor de fundo branca */
+    width: 100%; /* Largura total */
+    position: fixed; /* Posição fixa para permanecer no topo da tela */
+    top: 0; /* Fixa no topo da tela */
+    left: 0; /* Alinhada à esquerda */
+    z-index: 1000; /* Z-index elevado para garantir que fique sobre outros elementos */
+    padding: 10px 20px; /* Preenchimento interno */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para o conteúdo da página para evitar que fique oculto sob a barra de navegação */
+.content {
+    padding-top: 60px; /* Altura da barra de navegação + espaço adicional */
+    margin-left: 2rem;
+    margin: 2rem;
+}
